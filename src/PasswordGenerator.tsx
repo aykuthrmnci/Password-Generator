@@ -149,7 +149,7 @@ const PasswordGenerator = () => {
 
       {passwords?.map((value, index) => (
         <TextField
-          key={value}
+          key={index}
           fullWidth
           label={`Şifre ${index + 1}`}
           id={`password-${index + 1}`}
